@@ -1,0 +1,112 @@
+.Container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d3e4cd;
+}
+
+.FormContainer {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0px;
+  height: fit-content;
+  border-radius: 10px;
+  background: #adc2a9;
+  box-shadow: 0 0 10px gray;
+}
+
+.FormContainer h3 {
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.ButtonControl {
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+  margin-top: 14px;
+}
+
+.ButtonControl button {
+  padding: 7px 13px;
+  color: black;
+  background: dodgerblue;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.ButtonControl a {
+  padding: 8px 13px;
+  text-decoration: none;
+  margin: 10px;
+  color: black;
+  background: dodgerblue;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.ButtonControl a.RedButton {
+  background: red;
+}
+
+.ButtonControl a.RedButton:hover {
+  box-shadow: 0 0 10px red;
+}
+
+.ButtonControl bluebutton:hover {
+  box-shadow: 0 0 5px blue;
+}
+.ButtonControl button:hover {
+  box-shadow: 0 0 5px blue;
+}
+select {
+  width: 100%;
+  padding: 5px 0px;
+  color: black;
+  padding-left: 5px;
+  margin-top: 3px;
+  margin-bottom: 7px;
+}
+
+label {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+p {
+  color: red;
+  font-size: 13px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+/* Inputs */
+.InputControl {
+  display: block;
+}
+input {
+  width: 97%;
+  padding: 5px 0px;
+  color: black;
+  padding-left: 5px;
+  margin-top: 3px;
+  margin-bottom: 7px;
+}
+
+label {
+  font-size: 12px;
+  color: black;
+  font-weight: 600;
+}
